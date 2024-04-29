@@ -47,7 +47,6 @@ img {
 #categories {
   width: 392px;
   height: 100%;
-  padding: 24px;
 }
 
 .item {
@@ -254,7 +253,7 @@ p {
   margin-bottom: 16px;
 }
 
-input {
+#controls input {
   border: 1px solid #808080;
   border-radius: 8px;
   width: 150px;

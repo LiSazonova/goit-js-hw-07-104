@@ -24,16 +24,13 @@ const images = [
     alt: "Lighthouse Coast Sea",
   }
 ];
-
+//  gggggggggggggg
 const gallery = document.querySelector('.gallery');
 let count = 0;
 
 images.map(image => {
-  if (count < 3) {
-    gallery.insertAdjacentHTML(
-      'beforeend',
-      `<li><img src="${image.url}" alt="${image.alt}" class="gallery-image" width="360" /></li>`
-    );
-    count++;
-  }
+  gallery.insertAdjacentHTML(
+    'beforeend',
+    `<li><img src="${image.url}" alt="${image.alt}" class="gallery-image" width="360" /></li>`
+  );
 });
